@@ -1,7 +1,8 @@
 /* FONT STACK */
 body,
 input, select, textarea {
-    font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: "Open Sans", "Segoe UI", Helvetica, Arial;
+	font-weight: lighter;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,6 +46,11 @@ body {
     background-color: #abbf78;
 }
 
+.title {
+    font-size: 1.5em;
+    color: white;
+}
+
 a:hover, a:active {
     outline: none; /* prevents outline in webkit on active links but retains it for tab focus */
 }
@@ -74,7 +80,6 @@ img {
 }
 
 .content h1 {
-    border-bottom: 1px solid #CCCCCC;
     margin: 0.8em 1em 0.3em;
     padding: 0 0.25em;
 }
@@ -84,17 +89,17 @@ img {
 }
 
 .footer {
-    background: #48802c;
+    background: #00CCCC;
     color: #000;
     clear: both;
     font-size: 0.8em;
     margin-top: 1.5em;
-    padding: 1em;
     min-height: 1em;
 }
 
 .footer a {
-    color: #4D8618;
+    color: black;
+    padding-left: 20px;
 }
 
 .spinner {
@@ -106,6 +111,10 @@ img {
     right: 0;
     top: 0;
     text-indent: -9999px;
+
+    margin: 0;
+    list-style: none;
+    text-align: center;
 }
 
 /* NAVIGATION MENU */
@@ -115,21 +124,44 @@ img {
 }
 
 .nav ul {
-    overflow: hidden;
-    padding-left: 0;
     zoom: 1;
+	padding: 4px;
+	margin: 0em auto;
+	list-style: none;
+	text-align: center;
+	overflow: hidden;
+    padding-left: 0;
+}
+
+.navbar-right {
+    right: 0;
+    position: absolute;
+    display: inline-block;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    padding: 0;
+    background: 00CCCC;
 }
 
 .nav li {
-    display: block;
     float: left;
     list-style-type: none;
-    margin-right: 0.5em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
     padding: 0;
 }
 
+
+
+.nav ul li:hover ul {
+    left: auto;
+}
+
 .nav a {
-    color: #666666;
+	width: 120px;
+	color: #666;
+	background: #FFF;
+	margin: 1px 0;
     display: block;
     padding: 0.25em 0.7em;
     text-decoration: none;
@@ -138,13 +170,30 @@ img {
     border-radius: 0.3em;
 }
 
-.nav a:active, .nav a:visited {
-    color: #666666;
+.navbar-right a {
+    background: #00CCCC;
+    width: 200px;
+}
+
+.navbar a {
+    color: #666;
+}
+
+@media (min-width: 512px) {
+    .navbar-right, .navbar-toggle {
+        display: none;
+    }
+}
+
+@media (max-width: 511px) {
+    .nav-menu {
+        display: none;
+    }
 }
 
 .nav a:focus, .nav a:hover {
-    background-color: #999999;
-    color: #ffffff;
+	background: #00AAAA;
+	color: #FFF;
     outline: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 }
@@ -175,6 +224,34 @@ img {
 
 .nav li.dropdown.open ul.dropdown-menu {
     background-color: #4D8618;
+}
+
+.nav li a {
+	display:block;
+	text-decoration:none;
+	padding:5px;
+}
+
+.nav ul li ul {
+	display:none;
+}
+
+.nav ul li:hover ul {
+	display:block;
+}
+
+.nav li:hover ul li {
+	float:none;
+}
+
+.nav li ul {
+    z-index: 1000;
+	position:absolute;
+}
+
+.nav ul li ul li {
+    margin-left: 0.35em;
+    margin-right: 0em;
 }
 
 /* CREATE/EDIT FORMS AND SHOW PAGES */
@@ -280,7 +357,7 @@ ul.one-to-many li.add {
 
 fieldset.embedded {
     background-color: transparent;
-    border: 1px solid #CCCCCC;
+    border: 1px solid #00CCCC;
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
@@ -446,7 +523,7 @@ th.desc a {
 }
 
 th:hover, tr:hover {
-    background: #79b94c;
+    background: #00CCCC;
 }
 
 /* PAGINATION */
@@ -492,12 +569,11 @@ th:hover, tr:hover {
 /* ACTION BUTTONS */
 
 .buttons {
-    background-color: #efefef;
     overflow: hidden;
     padding: 0.3em;
     -moz-box-shadow: 0 0 3px 1px #aaaaaa;
     -webkit-box-shadow: 0 0 3px 1px #aaaaaa;
-    box-shadow: 0 0 3px 1px #aaaaaa;
+    box-shadow: 0 0 3px 1px #00CCCC;
     margin: 0.1em 0 0 0;
     border: none;
 }
@@ -506,7 +582,7 @@ th:hover, tr:hover {
 .buttons a {
     background-color: transparent;
     border: 0;
-    color: #666666;
+    color: ##00CCCC;
     cursor: pointer;
     display: inline-block;
     margin: 0 0.25em 0;
@@ -521,10 +597,9 @@ th:hover, tr:hover {
 
 .buttons input:hover, .buttons input:focus,
 .buttons a:hover, .buttons a:focus {
-    background-color: #999999;
-    color: #ffffff;
+    background-color: #00CCCC;
+    color: #000000;
     outline: none;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -533,7 +608,7 @@ th:hover, tr:hover {
 .no-borderradius .buttons input:hover, .no-borderradius .buttons input:focus,
 .no-borderradius .buttons a:hover, .no-borderradius .buttons a:focus {
     background-color: transparent;
-    color: #444444;
+    color: #00CCCC;
     text-decoration: underline;
 }
 
@@ -541,18 +616,6 @@ th:hover, tr:hover {
     background-position: 0.7em center;
     background-repeat: no-repeat;
     text-indent: 25px;
-}
-
-.buttons .delete {
-    background-image: url(../images/skin/database_delete.png);
-}
-
-.buttons .edit {
-    background-image: url(../images/skin/database_edit.png);
-}
-
-.buttons .save {
-    background-image: url(../images/skin/database_save.png);
 }
 
 a.skip {
