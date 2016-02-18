@@ -7,6 +7,5 @@ class Answer extends Intervention
 
 	static constraints =
 	{
-		question(nullable: false)
 	}
 }

@@ -3,7 +3,7 @@ package mystackoverflow
 //Superclass for Question and Answer
 class Intervention
 {
-	String text
+	String textIntervention
 	Date creationDate
 	//One-To-Many relation
 	static belongsTo = [user: User]
@@ -12,8 +12,7 @@ class Intervention
 
     static constraints =
     {
-		user(nullable: false)
-		text(blank: false, nullable: false, maxLength: 1000)
-		creationDate(nullable: false)
+		textIntervention nullable: false, blank: false, maxSize: 1000
+		creationDate nullable: false
     }
 }

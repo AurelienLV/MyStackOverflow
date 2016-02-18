@@ -10,8 +10,6 @@ class Vote
 
 	static constraints =
 	{
-		vote(nullable: false) //le vote n'existe pas/plus s'il est annulé
-		user(nullable: false)
-		intervention(nullable: false)
+		vote nullable: false //vote doesn't exist if null
 	}
 }

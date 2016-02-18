@@ -3,14 +3,12 @@ package mystackoverflow
 //Speech for a question or an answer by an user
 class Comment
 {
-	String text
+	String textComment
 	//One-To-Many relation
 	static belongsTo = [user: User, intervention: Intervention]
 
     static constraints =
     {
-		text(blank: false, nullable:false, maxLength: 1000)
-		user(nullable: false)
-		intervention(nullable: false)
+		textComment nullable: false, blank: false, maxSize: 1000
     }
 }

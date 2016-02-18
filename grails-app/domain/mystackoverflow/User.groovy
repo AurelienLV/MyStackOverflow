@@ -8,6 +8,7 @@ class User
 	String firstName
 	String lastName
 	String email
+    String confirmPassword
 	Date creationDate
 	int age
 	int reputation
@@ -16,13 +17,23 @@ class User
 
 	static constraints =
 	{
-		username(blank: false, nullable: false, unique: true, length: 5..15, matches:/[a-zA-Z]/)
-		password(blank: false, nullable: false, length: 6..20)
-		firstName(blank: false, nullable: false, maxLength: 100)
-		lastName(blank: false, nullable: false, maxLength: 100)
-		email(email: true, blank: false, nullable: false, maxLength: 100)
-		creationDate(nullable: false)
-		age(nullable: false, min:12)
-		reputation(nullable: false)
+		username nullable: false, blank: false, unique: true, size: 5..15, matches:/[a-zA-Z0-9]+/
+		password nullable: false, blank: false, size: 6..20
+		firstName nullable: false, blank: false, maxSize: 100
+		lastName nullable: false, blank: false, maxSize: 100
+		email nullable: false, email: true, blank: false, maxSize: 100
+        confirmPassword nullable: false, blank: false, validator: { val, object ->
+            if ((val != object.password)) {
+                return 'passwordMismatch'
+            }
+            return true
+        }
+		age nullable: false, min:12
+		reputation nullable: false
+        creationDate nullable: false
 	}
+
+    User() {
+        creationDate = new Date()
+    }
 }

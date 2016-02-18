@@ -6,11 +6,10 @@ class Tag
 	String description
 	//Many-To-Many relation
 	static hasMany = [questions: Question]
-	static belongsTo = [question: Question]
-	
+	static belongsTo = Question
+
 	static constraints =
 	{
-		description(blank: false, nullable: false, maxLength: 1000)
-		question(nullable: false)
+		description nullable: false, blank: false, maxSize: 1000
 	}
 }
