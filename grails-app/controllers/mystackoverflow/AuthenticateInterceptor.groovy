@@ -13,6 +13,8 @@ class AuthenticateInterceptor {
             redirect(controller: "User", action: "login")
             return false
         }
+        else
+            return true;
     }
 
     boolean after() { true }

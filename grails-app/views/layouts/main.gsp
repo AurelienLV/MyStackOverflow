@@ -29,22 +29,25 @@
 
             <div class="navbar-collapse collapse" aria-expanded="false">
                 <ul class="nav navbar-nav navbar-right">
-<!-- IF USER -->
-                   <a class="home" href="${createLink(uri: '/')}">${message(code: 'menu.home')}</a>
-                   <a href="#">${message(code: 'menu.myprofile')}</a>
-                   <a href="#">${message(code: 'menu.userlist')}</a>
-                   <a href="#">${message(code: 'menu.newquestion')}</a>
-                   <a href="#">${message(code: 'menu.myquestions')}</a>
-                   <a href="#">${message(code: 'menu.recentquestions')}</a>
-                   <a href="#">${message(code: 'menu.qbytag')}</a>
-                   <a href="#">${message(code: 'menu.myanswers')}</a>
-                   <a href="#">${message(code: 'menu.recentanswers')}</a>
-                   <a href="#">${message(code: 'menu.bestratedanswer')}</a>
-                   <a href="#">${message(code: 'menu.logout')}</a>
+					<!-- IF USER -->
+					<g:if test="${session.user}">
+						<a class="home" href="${createLink(uri: '/')}">${message(code: 'menu.home')}</a>
+						<a href="#">${message(code: 'menu.myprofile')}</a>
+						<a href="#">${message(code: 'menu.userlist')}</a>
+						<a href="#">${message(code: 'menu.newquestion')}</a>
+						<a href="#">${message(code: 'menu.myquestions')}</a>
+						<a href="#">${message(code: 'menu.recentquestions')}</a>
+						<a href="#">${message(code: 'menu.qbytag')}</a>
+						<a href="#">${message(code: 'menu.myanswers')}</a>
+						<a href="#">${message(code: 'menu.recentanswers')}</a>
+						<a href="#">${message(code: 'menu.bestratedanswer')}</a>
+						<a href="#">${message(code: 'menu.logout')}</a>
+					</g:if>
 
-<!-- IF NO USER -->
-                   <a href="${createLink(uri: '/user/create')}">${message(code: 'menu.signup')}</a>
-                   <a href="${createLink(uri: '/user/connexion')}">${message(code: 'menu.login')}</a>
+					<g:else>
+						<a href="${createLink(uri: '/user/create')}">${message(code: 'menu.signup')}</a>
+						<a href="${createLink(uri: '/user/login')}">${message(code: 'menu.login')}</a>
+					</g:else>
                 </ul>
             </div>
         </div>
@@ -52,36 +55,39 @@
             <ul>
                 <li><a class="home" href="${createLink(uri: '/')}">${message(code: 'menu.home')}</a></li>
 
-<!-- IF USER -->
-                <li><a>${message(code: 'menu.users')}</a>
-                    <ul>
-                        <li><a href="${createLink(uri: '/user/show/1')}">${message(code: 'menu.myprofile')}</a></li>
-                        <li><a href="${createLink(uri: '/user/index')}">${message(code: 'menu.userlist')}</a></li>
-                    </ul>
-                </li>
+				<!-- IF USER -->
+				<g:if test="${session.user}">
+					<li><a>${message(code: 'menu.users')}</a>
+						<ul>
+							<li><a href="${createLink(uri: '/user/show/1')}">${message(code: 'menu.myprofile')}</a></li>
+							<li><a href="${createLink(uri: '/user/index')}">${message(code: 'menu.userlist')}</a></li>
+						</ul>
+					</li>
 
-                <li><a>${message(code: 'menu.questions')}</a>
-                    <ul>
-                        <li><a href="${createLink(uri: '/question/create')}">${message(code: 'menu.newquestion')}</a></li>
-                        <li><a href="#">${message(code: 'menu.myquestions')}</a></li>
-                        <li><a href="${createLink(uri: '/question/index')}">${message(code: 'menu.recentquestions')}</a></li>
-                        <li><a href="#">${message(code: 'menu.qbytag')}</a></li>
-                    </ul>
-                </li>
+					<li><a>${message(code: 'menu.questions')}</a>
+						<ul>
+							<li><a href="${createLink(uri: '/question/create')}">${message(code: 'menu.newquestion')}</a></li>
+							<li><a href="#">${message(code: 'menu.myquestions')}</a></li>
+							<li><a href="${createLink(uri: '/question/index')}">${message(code: 'menu.recentquestions')}</a></li>
+							<li><a href="#">${message(code: 'menu.qbytag')}</a></li>
+						</ul>
+					</li>
 
-                <li><a>${message(code: 'menu.answers')}</a>
-                    <ul>
-                        <li><a href="#">${message(code: 'menu.myanswers')}</a></li>
-                        <li><a href="${createLink(uri: '/answer/index')}">${message(code: 'menu.recentanswers')}</a></li>
-                        <li><a href="#">${message(code: 'menu.bestratedanswer')}</a></li>
-                    </ul>
-                </li>
+					<li><a>${message(code: 'menu.answers')}</a>
+						<ul>
+							<li><a href="#">${message(code: 'menu.myanswers')}</a></li>
+							<li><a href="${createLink(uri: '/answer/index')}">${message(code: 'menu.recentanswers')}</a></li>
+							<li><a href="#">${message(code: 'menu.bestratedanswer')}</a></li>
+						</ul>
+					</li>
 
-                <li><a href="#">${message(code: 'menu.logout')}</a></li>
+					<li><a href="#">${message(code: 'menu.logout')}</a></li>
+				</g:if>
 
-<!-- IF NO USER -->
-                <li><a href="${createLink(uri: '/user/create')}">${message(code: 'menu.signup')}</a></li>
-                <li><a href="${createLink(uri: '/user/connexion')}">${message(code: 'menu.login')}</a></li>
+				<g:else>
+					<li><a href="${createLink(uri: '/user/create')}">${message(code: 'menu.signup')}</a></li>
+					<li><a href="${createLink(uri: '/user/login')}">${message(code: 'menu.login')}</a></li>
+				</g:else>
             </ul>
         </div>
     </div>

@@ -19,10 +19,10 @@ class User
 	static constraints =
 	{
 		username nullable: false, blank: false, unique: true, size: 5..15, matches:/[a-zA-Z0-9]+/
-		password nullable: false, blank: false, size: 6..20
+		password nullable: false, blank: false, size: 5..20
 		firstName nullable: false, blank: false, maxSize: 100
 		lastName nullable: false, blank: false, maxSize: 100
-		email nullable: false, email: true, blank: false, maxSize: 100
+		email nullable: false, email: true, blank: false, maxSize: 200
         confirmPassword nullable: false, blank: false, validator: { val, object ->
             if ((val != object.password)) {
                 return 'passwordMismatch'
