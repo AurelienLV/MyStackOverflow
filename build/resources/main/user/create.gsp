@@ -9,7 +9,7 @@
         <a href="#create-user" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 
         <div id="create-user" class="content scaffold-create" role="main">
-            <h1><g:message code="default.create.label" args="[entityName]" /></h1>
+            <h1><g:message code="default.create.label.user" /></h1>
 
             <g:if test="${flash.message}">
             <div class="message" role="status">${flash.message}</div>
@@ -58,7 +58,7 @@
                 </fieldset>
 
                 <fieldset class="buttons">
-                    <g:submitButton name="create" class="save" value="${message(code: 'user.subscribe')}" />
+                    <g:submitButton name="create" value="${message(code: 'user.subscribe')}" />
                 </fieldset>
             </g:form>
         </div>
