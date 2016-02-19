@@ -16,9 +16,10 @@
             </g:if>
 
             <f:display bean="question" />
+            <g:link controller="answer" action="create" id="${question.id}">${message(code:'answer')}</g:link>
 
             <g:each var="comment" in="${commentQList}">
-                <p>${book.textComment}</p>
+                <p>${comment.textComment}</p>
             </g:each>
 
             <g:each var="answer" in="${answerQ}">

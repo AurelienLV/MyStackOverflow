@@ -16,6 +16,7 @@
             </g:if>
 
             <f:display bean="question" />
+            <a href${answer.Comment}
 
             <g:each var="comment" in="${commentQList}">
                 <p>${book.textComment}</p>
