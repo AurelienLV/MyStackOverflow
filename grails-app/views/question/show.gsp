@@ -19,15 +19,15 @@
             <g:link controller="comment" action="create" id="${question.id}">${message(code:'comment')}</g:link>
             <g:link controller="answer" action="create" id="${question.id}">${message(code:'answer')}</g:link>
 
-            <g:each var="comment" in="${commentQList}">
+            <g:each var="comment" in="${question.comments}">
                 <p>${comment.textComment}</p>
             </g:each>
 
-            <g:each var="answer" in="${answerQ}">
+            <g:each var="answer" in="${question.answers}">
                 <p>${answer.textIntervention}</p>
                 <p>${answer.creationDate}</p>
-                <p>${answer.User}</p>
-                <p>${answer.Vote.count}</p>
+                <p>${answer.user}</p>
+                <p>${answer.votes.count}</p>
 
                 <g:each var="comment" in="${answer.comments}">
                     <p>${comment.textComment}</p>

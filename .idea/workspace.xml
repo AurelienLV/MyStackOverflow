@@ -3,51 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5877a82d-af56-4d91-9fc9-9474bf502839" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/Answer.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/Answer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/AnswerController.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/AnswerController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/AuthenticateInterceptor.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/AuthenticateInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/Badge.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/Badge.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/Comment.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/Comment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/CommentController.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/CommentController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/Intervention.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/Intervention.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/Question.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/Question.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$__tt__delete_closure14$_closure21.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$__tt__delete_closure14$_closure21.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$__tt__delete_closure14$_closure22.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$__tt__delete_closure14$_closure22.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$__tt__delete_closure14.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$__tt__delete_closure14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$__tt__save_closure12$_closure17.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$__tt__save_closure12$_closure17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$__tt__save_closure12$_closure18.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$__tt__save_closure12$_closure18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$__tt__save_closure12.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$__tt__save_closure12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$__tt__update_closure13$_closure19.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$__tt__update_closure13$_closure19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$__tt__update_closure13$_closure20.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$__tt__update_closure13$_closure20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$__tt__update_closure13.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$__tt__update_closure13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$_notFound_closure5$_closure15.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$_notFound_closure5$_closure15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$_notFound_closure5$_closure16.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$_notFound_closure5$_closure16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$_notFound_closure5.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController$_notFound_closure5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/QuestionController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/Tag.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/Tag.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/TagController.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/TagController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/User.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/UserController.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mystackoverflow/Vote.class" afterPath="$PROJECT_DIR$/build/classes/main/mystackoverflow/Vote.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/messages.properties" afterPath="$PROJECT_DIR$/build/classes/main/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/messages_fr.properties" afterPath="$PROJECT_DIR$/build/classes/main/messages_fr.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/answer/create.gsp" afterPath="$PROJECT_DIR$/build/resources/main/answer/create.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/comment/create.gsp" afterPath="$PROJECT_DIR$/build/resources/main/comment/create.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/messages.properties" afterPath="$PROJECT_DIR$/build/resources/main/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/messages_fr.properties" afterPath="$PROJECT_DIR$/build/resources/main/messages_fr.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/question/create.gsp" afterPath="$PROJECT_DIR$/build/resources/main/question/create.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/question/show.gsp" afterPath="$PROJECT_DIR$/build/resources/main/question/show.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/stacktrace.log" afterPath="$PROJECT_DIR$/build/stacktrace.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/mystackoverflow/QuestionController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/mystackoverflow/QuestionController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_fr.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_fr.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/answer/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/answer/create.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/comment/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/comment/create.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/question/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/question/create.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/mystackoverflow/User.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/mystackoverflow/User.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/question/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/question/show.gsp" />
     </list>
     <ignored path="mystackoverflow.iws" />
@@ -90,16 +46,16 @@
         <entry file="file://$PROJECT_DIR$/grails-app/views/question/show.gsp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuestionController.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuestionController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/mystackoverflow/QuestionController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53438115">
+            <state vertical-scroll-proportion="0.0">
               <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding />
             </state>
@@ -136,6 +92,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="User.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/mystackoverflow/User.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.87966806">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CommentController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/mystackoverflow/CommentController.groovy">
           <provider selected="true" editor-type-id="text-editor">
@@ -161,19 +127,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messages.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
-          <provider editor-type-id="ResourceBundle">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.896552">
-              <caret line="109" column="15" selection-start-line="109" selection-start-column="15" selection-end-line="109" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -1014,7 +967,6 @@
         <option value="$PROJECT_DIR$/grails-app/views/user/show.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/user/edit.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/mystackoverflow/AuthenticateInterceptor.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/mystackoverflow/User.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/user/login.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/user/create.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/question/index.gsp" />
@@ -1030,13 +982,14 @@
         <option value="$PROJECT_DIR$/grails-app/controllers/mystackoverflow/UserController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/answer/create.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/question/create.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/question/show.gsp" />
         <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
         <option value="$PROJECT_DIR$/grails-app/i18n/messages_fr.properties" />
         <option value="$PROJECT_DIR$/grails-app/views/comment/create.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/mystackoverflow/CommentController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/mystackoverflow/AnswerController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/mystackoverflow/QuestionController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/question/show.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/domain/mystackoverflow/User.groovy" />
       </list>
     </option>
   </component>
@@ -2141,14 +2094,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/mystackoverflow/User.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/mystackoverflow/Vote.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2262,14 +2207,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/question/show.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/answer/create.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2320,8 +2257,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/mystackoverflow/QuestionController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53438115">
+        <state vertical-scroll-proportion="0.0">
           <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/question/show.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/mystackoverflow/User.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.87966806">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
           <folding />
         </state>
       </provider>

@@ -34,4 +34,8 @@ class User
         creationDate nullable: false
 		admin nullable:false
 	}
+
+	String toString() {
+		return username;
+	}
 }
