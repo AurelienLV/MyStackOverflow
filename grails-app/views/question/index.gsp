@@ -15,7 +15,7 @@
             </g:if>
 
             <div style="overflow-x:auto;">
-				<f:table collection="${questionList}" properties="['titleQuestion', 'views', 'tags', 'creationDate']"/>
+				<f:table collection="${listQByDate}" properties="['titleQuestion', 'views', 'tags', 'creationDate']"/>
 			</div>
 
             <div class="pagination">

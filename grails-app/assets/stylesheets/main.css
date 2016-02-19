@@ -631,16 +631,22 @@ a.skip {
     left: -9999px;
 }
 
-.grails-logo-container {
-    background:#79b94c no-repeat 50% 30%;
+.home-container {
+	height: 150px;
+    background: no-repeat 50% 30%;
     margin-bottom: 20px;
-    color: white;
-    height:300px;
     text-align:center;
+}
 
+.home-container h1, .grails-logo-container h2, .grails-logo-container h3 {
+	padding: 1em;
+    color: #000000;
+    font-weight: bold;
+    font-size: 3em;
+    margin: 0em;
 }
 
 img.grails-logo {
-    height:340px;
     margin-top:-10px;
+    max-width: 90%;
 }

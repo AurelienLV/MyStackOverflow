@@ -9,8 +9,8 @@ class QuestionController {
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
-        respond Question.list(params), model:[questionCount: Question.count()]
+        def listQuestionsSortedByDateDesc = Question.list(max: 15, sort: 'creationDate', order: 'desc')
+        [listQByDate: listQuestionsSortedByDateDesc]
     }
 
     def show(Question question) {
