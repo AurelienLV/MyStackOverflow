@@ -89,6 +89,10 @@ img {
 }
 
 .footer {
+	position: fixed;
+	bottom: 0px;
+	height: 28px;
+	width: 100%;
     background: #00CCCC;
     color: #000;
     clear: both;
@@ -572,6 +576,7 @@ tr:nth-child(even):hover {
 /* ACTION BUTTONS */
 
 .buttons {
+	float: left;
     overflow: hidden;
     padding: 0.3em;
     -moz-box-shadow: 0 0 3px 1px #aaaaaa;
@@ -631,7 +636,8 @@ a.skip {
     margin-bottom: 20px;
     color: white;
     height:300px;
-    text-align:center;"
+    text-align:center;
+
 }
 
 img.grails-logo {

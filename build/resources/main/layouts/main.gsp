@@ -81,7 +81,7 @@
 						</ul>
 					</li>
 
-					<li><a href="#">${message(code: 'menu.logout')}</a></li>
+					<li><a href="${createLink(uri: '/user/logout')}">${message(code: 'menu.logout')}</a></li>
 				</g:if>
 
 				<g:else>

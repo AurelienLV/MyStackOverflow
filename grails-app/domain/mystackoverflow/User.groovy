@@ -9,7 +9,7 @@ class User
 	String lastName
 	String email
     String confirmPassword
-	Date creationDate
+	Date creationDate = new Date()
 	int age
 	int reputation
 	boolean admin
@@ -29,13 +29,9 @@ class User
             }
             return true
         }
-		age nullable: false, min:12
+		age nullable: false
 		reputation nullable: false
         creationDate nullable: false
 		admin nullable:false
 	}
-
-    User() {
-        creationDate = new Date()
-    }
 }
