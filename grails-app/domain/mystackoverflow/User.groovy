@@ -12,6 +12,7 @@ class User
 	Date creationDate
 	int age
 	int reputation
+	boolean admin
 	//One-To-Many relation, badges: Many-To-Many relation
 	static hasMany = [answers: Answer, questions: Question, comments: Comment, badges: Badge]
 
@@ -31,6 +32,7 @@ class User
 		age nullable: false, min:12
 		reputation nullable: false
         creationDate nullable: false
+		admin nullable:false
 	}
 
     User() {

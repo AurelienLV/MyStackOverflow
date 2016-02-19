@@ -151,8 +151,6 @@ img {
     padding: 0;
 }
 
-
-
 .nav ul li:hover ul {
     left: auto;
 }
@@ -466,8 +464,8 @@ tr>td:last-child, tr>th:last-child {
 
 td, th {
     line-height: 1.5em;
-    padding: 0.5em 0.6em;
-    text-align: left;
+	padding: 8px;
+    text-align: center;
     vertical-align: top;
 }
 
@@ -522,9 +520,14 @@ th.desc a {
     background: #ffffff;
 }
 
-th:hover, tr:hover {
-    background: #00CCCC;
+tr:hover {
+    background: #00cc66;
 }
+
+tr:nth-child(even):hover {
+    background: #00994d;
+}
+
 
 /* PAGINATION */
 

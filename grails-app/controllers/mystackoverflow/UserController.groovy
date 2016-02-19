@@ -21,6 +21,26 @@ class UserController {
         respond new User(params)
     }
 
+    def login() {
+        if (params.username != null) {
+            def user = User.findByUsername(params.username)
+
+            if (user != null) {
+                if (user.password == params.password) {
+                    session.user = user.username
+                    session.userAdmin = user.admin
+                    redirect(uri:'/')
+                }
+            }
+        }
+        [login: false, message: 'Login ou mot de passe incorrect']
+    }
+
+    def logout() {
+        session.invalidate()
+        redirect(uri:'/')
+    }
+
     @Transactional
     def save(User user) {
         if (user == null) {

@@ -18,7 +18,10 @@
             <g:if test="${flash.message}">
                 <div class="message" role="status">${flash.message}</div>
             </g:if>
-            <f:table collection="${userList}" />
+
+            <div style="overflow-x:auto;overflow-y:auto;">
+				<f:table collection="${userList}" properties="['username', 'age', 'reputation']"/>
+			</div>
 
             <div class="pagination">
                 <g:paginate total="${userCount ?: 0}" />
