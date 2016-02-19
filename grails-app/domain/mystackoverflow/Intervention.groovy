@@ -4,7 +4,7 @@ package mystackoverflow
 class Intervention
 {
 	String textIntervention
-	Date creationDate
+	Date creationDate = new Date()
 	//One-To-Many relation
 	static belongsTo = [user: User]
 	//One-To-Many relation
@@ -13,6 +13,5 @@ class Intervention
     static constraints =
     {
 		textIntervention nullable: false, blank: false, maxSize: 1000
-		creationDate nullable: false
     }
 }

@@ -22,7 +22,18 @@
             </g:hasErrors>
             <g:form action="save">
                 <fieldset class="form">
-                    <f:all bean="question"/>
+                    <table>
+                        <tr>
+                            <td><label>TEXTE</label></td>
+                            <td><g:textField maxlength="1000" name="titleQuestion"/></td>
+                        </tr>
+                        <tr>
+                            <td><label>TEXTE</label></td>
+                            <td><g:textField maxlength="200" name="textIntervention"/></td>
+                        </tr>
+                        <g:hiddenField name="user.id" value="${session.user.id}" />
+                        <g:hiddenField name="views" value="0" />
+                    </table>
                 </fieldset>
                 <fieldset class="buttons">
                     <g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />

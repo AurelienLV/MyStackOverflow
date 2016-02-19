@@ -14,6 +14,7 @@ class QuestionController {
     }
 
     def show(Question question) {
+        [commentQList: question.comments]
         respond question
     }
 
@@ -23,6 +24,7 @@ class QuestionController {
 
     @Transactional
     def save(Question question) {
+
         if (question == null) {
             transactionStatus.setRollbackOnly()
             notFound()

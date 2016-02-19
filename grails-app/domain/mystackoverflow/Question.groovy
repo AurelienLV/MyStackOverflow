@@ -11,6 +11,6 @@ class Question extends Intervention
 	static constraints =
 	{
 		views min: 0
-		titleQuestion nullable: false, blank: false, maxSize: 100
+		titleQuestion nullable: false, blank: false, maxSize: 200
 	}
 }

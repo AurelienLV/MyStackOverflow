@@ -27,8 +27,7 @@ class UserController {
 
             if (user != null) {
                 if (user.password == params.password) {
-                    session.user = user.username
-                    session.userAdmin = user.admin
+                    session.user = user
                     redirect(uri:'/')
                 }
             }

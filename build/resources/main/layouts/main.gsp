@@ -105,6 +105,7 @@
 			   <a href="${message(code: 'lang.url')}">${message(code: 'lang.change')}</a>
 			<g:message code="spinner.alt" default="Loading&hellip;"/>
 		</div>
+		<br /><br /><br /><br />
 
 		<asset:javascript src="application.js"/>
 	</body>

@@ -10,10 +10,28 @@
 
         <div id="show-question" class="content scaffold-show" role="main">
             <h1><g:message code="default.show.label" args="[entityName]" /></h1>
+
             <g:if test="${flash.message}">
             <div class="message" role="status">${flash.message}</div>
             </g:if>
+
             <f:display bean="question" />
+
+            <g:each var="comment" in="${commentQList}">
+                <p>${book.textComment}</p>
+            </g:each>
+
+            <g:each var="answer" in="${answerQ}">
+                <p>${answer.textIntervention}</p>
+                <p>${answer.creationDate}</p>
+                <p>${answer.User}</p>
+                <p>${answer.Vote.count}</p>
+
+                <g:each var="comment" in="${answer.Comment}">
+                    <p>${comment.textComment}</p>
+                </g:each>
+            </g:each>
+
             <g:form resource="${this.question}" method="DELETE">
                 <fieldset class="buttons">
                     <g:link class="edit" action="edit" resource="${this.question}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
