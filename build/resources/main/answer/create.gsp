@@ -27,6 +27,8 @@
 						<tr>
 							<td><label>${message(code: 'answer.textIntervention')}</label></td>
 							<td><g:textField maxlength="500" name="textIntervention" value="${params.textIntervention}"/></td>
+							<g:hiddenField name="user.id" value="${session.user.id}" />
+							<g:hiddenField name="question.id" value="${params.id}" />
 						</tr>
 					</table>
                 </fieldset>

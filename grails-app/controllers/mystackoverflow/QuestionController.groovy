@@ -15,6 +15,7 @@ class QuestionController {
 
     def show(Question question) {
         [commentQList: question.comments]
+        [answerQ: question.answers]
         respond question
     }
 

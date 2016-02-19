@@ -27,6 +27,8 @@
 						<tr>
 							<td><label>${message(code: 'comment.textComment')}</label></td>
 							<td><g:textField maxlength="500" name="textComment" value="${params.textComment}"/></td>
+                            <g:hiddenField name="user.id" value="${session.user.id}" />
+                            <g:hiddenField name="intervention.id" value="${params.id}" />
 						</tr>
 					</table>
                 </fieldset>
